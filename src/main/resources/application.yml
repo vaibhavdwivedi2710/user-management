@@ -4,18 +4,9 @@ server:
 spring:
   application:
     name: UserManagement
-#  security:
-#    user:
-#      name: vaibhav
-#      password: vaibhav2710
-#  datasource:
-#    url: jdbc:mysql://localhost:3306/user-management?createDatabaseIfNotExist=true
-#    username: root
-#    password: Vai@1234
-#    driver-class-name: com.mysql.cj.jdbc.Driver
   datasource:
-    url: jdbc:mysql://nozomi.proxy.rlwy.net:22025/user-management?useSSL=true&requireSSL=false&allowPublicKeyRetrieval=true&autoReconnect=true
+    url: jdbc:mysql://localhost:3306/user-management?createDatabaseIfNotExist=true
     username: root
-    password: oajuSvFLOSQqpxaXbldnQkJzdMVZCJbx
+    password: Vai@1234
     driver-class-name: com.mysql.cj.jdbc.Driver
 
